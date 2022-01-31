@@ -1,0 +1,385 @@
+*{ margin: 0; padding: 0;}
+    ul {
+    list-style: none; }
+  
+
+a{
+    text-decoration: none;
+}
+
+
+.row{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+#header{
+    color: #fff;
+    
+}
+#logo{
+    font-size: 1.5rem;
+    margin-top: 5px;
+    
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+
+}
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    font-weight: 700;
+}
+#menu li a:hover{
+    color: yellow; 
+}
+#header{
+    background: url('back.jpg') no-repeat 0 0;
+    background-size: cover ;
+    background-image: fixed;
+    background-size: 100% 100%;
+    height: 80vh;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    
+    display: inline-block;
+    
+    margin: 0px;
+}
+.banner-title p.lead{
+    color: #fff;
+    
+}
+.btn {
+    font-size: 12px;
+    border-radius: 0px;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.section-icon{
+    font-size: 200px;
+    color: darkgray;
+
+}
+.section-content{
+    align-self: center;
+    font-size: 30px;
+    color: rgb(100, 94, 94);
+    
+}
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    padding: 2px;
+    border: #fff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.section:after{
+    background : lightgray;
+    content: "";
+    display: block;
+    width: 600px;
+    height: 2px;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+.projects h2{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.project-cards {
+    display: flex;
+    width: 100%;
+
+}
+.card {
+    border-radius: 0;
+    border: 0px;
+    background: rgb(238, 228, 228);
+   
+}
+.card a{
+    background:whitesmoke;
+    color: #000;
+    border: 0px whitesmoke;
+    font-size: 10px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-img-top{
+    border-radius: 0;
+    height: 350px;
+
+    
+}
+.card-body:hover{
+    background: yellow!important;
+     
+}
+.pricing h2{
+    color: #000;
+    text-align: center;
+    margin-top: 70px ;
+    margin-bottom: 30px;
+}
+.plan{
+    text-align: center;
+}
+.vl{
+    border-left:2px solid black;
+    height: 500px;
+    margin-top: 0px;
+}
+.plan p{
+    font-size: small;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.plan a{
+    color: black;
+    background: yellow;
+    font-weight: bold;
+    border: 0px;
+
+}
+.plan a:hover{
+    color: white;
+    background: purple;
+}
+.video-projects h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 70px ;
+    margin-bottom: 30px;
+}
+.video-projects{
+    background: purple;
+    margin-top: 100px;
+}
+.video-pics{
+    display: flex;
+    
+}
+.vid{
+   margin-left: 25px;
+
+}
+.team{
+    margin-bottom: 20px;
+}
+.team h2{
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    font-weight: 1800;
+}
+.team-head{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.team img{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    border-radius:50% ;
+    margin-bottom: 20px;
+   
+} 
+.team .col-md-4{
+    text-align: center;
+}
+.team p{
+    font-size:smaller;
+
+}
+.zippy-life{
+    background:rgb(235, 232, 232);
+    margin-top: 80px;
+    
+}
+.zippy-life .row{
+ padding-bottom: 100px;
+}
+.zippy-life h2{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    font-weight: 1800;
+
+}
+.zippy-life img{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+.signup{
+    background: url("signup.jpg") no-repeat 0 0;
+    background-size: cover ;
+    background-image: fixed;
+    background-size: 100% 100%;
+    height: 45vh;
+
+}
+.signup h2{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    font-weight: 1800;
+    color: #fff;
+
+}
+.signup input{
+    background: #fff;
+    border: 0px solid white;
+    width: 380px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 2px;
+    justify-content: center;
+
+}
+.signup button{
+    width: 100px;
+    height: 50px;
+    margin-top: 0%;
+    border: 0px solid yellow;
+    color: black;
+    font-size: xx-small;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+.blog h2{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    font-weight: 1800;
+
+}
+.blog h6{
+    font-weight: 900;
+    font-size: small;
+    padding-bottom: 6px;
+}
+.blog .col-md-4 {
+    text-align: center;
+}
+.blog p{
+    font-size: small;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+.blog a{
+    color: black;
+    background: darkgray;
+    font-weight: bolder;
+    border: 0px;
+    font-size: x-small;
+
+}
+.blog a:hover{
+    background: yellow;
+}
+.blog img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.blog small{
+    margin-bottom: 50px;
+}
+.contact{
+    margin-top: 80px;
+}
+.contact h1{
+    text-align: start;
+    margin-top: 30px ;
+    
+    font-weight: 1800;
+
+}
+.contact .form{
+    margin-left: 70px;
+}
+.contact label{
+    font-size: small;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.contact input{
+    width: 300px;
+    height: 45px;
+    border: 0px solid white;
+    
+
+}
+.contact textarea{
+    border: 0px solid white;
+
+}
+.contact .btn{
+    width: 300px;
+    height: 40px;
+    background: purple;
+    color: #fff;
+    font-size: small;
+    margin-top: 20PX;
+   
+}
+.contact .col-md-6 img{
+    width: 600px;
+    height: 580px;
+
+}
+.signup .input{
+    justify-content: center;
+}
+.footer{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: small;
+    text-align: center;
+    line-height: 25px;
+}
+.footer h6{
+    font-size: small;
+    font-weight: bolder;
+}
+.social-icons .fa{
+    font-size: large;
+    font-weight: bolder;
+    line-height: 10px;
+    display: inline-block;
+    margin :8px;
+    margin-left:15px
+}
